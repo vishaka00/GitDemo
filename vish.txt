@@ -1,0 +1,35 @@
+#create a variable with integer value.
+a=100
+print("The type of variable having value", a, " is ", type(a))
+
+#create a variable with float value.
+b=10.2345
+print("The type of variable having value", b, " is ", type(b)) 
+
+#create a variable with complex value.
+c=100+3j
+print("The type of variable having value", c, " is ", type(c))
+
+class Test:
+
+    def findsum(self, a, b):
+        s = a + b
+        return s
+
+
+a = int(input("Enter first number:"))
+b = int(input("Enter second number:"))
+
+obj = Test()
+s = obj.findsum(a, b)
+
+print("The result is:" + str(s))          # here s is int if we do concatination with string s has to be converted into string
+                 #or                      # so we user str(s) it converts int to string
+print("{} {}".format("The result is", s)) # or we can use format method to convert int to str
+
+
+<input type="text" class="err-border" maxlength="100" placeholder="Enter your active Email ID / Username" value="">
+/html/body/div/div[3]/div[2]/div/form/div[2]/input
+<input type="text" class="err-border" maxlength="100" placeholder="Enter your active Email ID / Username" value="">
+
+//*[@id="root"]/div[3]/div[2]/div/form/div[2]/input
